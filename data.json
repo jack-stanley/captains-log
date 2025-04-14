@@ -1,6 +1,6 @@
 {
   "model": "gemini-2.0-flash-lite",
-  "apiKey": "AIzaSyDdf7Y9OaKe-dtso9HQsECdn2ysBzMynHY",
+  "apiKey": "",
   "prompt": "You will be provided an audio file. Your task is to compose a concise memo from this audio file in markdown (Obsidian). If you are provided a template, follow this template as precisely as possible. Otherwise, structure the memo in a way that makes sense. Do not be conversational, simply return the memo text. Write the text in the first person perspective.",
   "includeTranscript": false,
   "defaultNoteFolder": "Captain's Log",
