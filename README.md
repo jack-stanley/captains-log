@@ -33,7 +33,7 @@ Tada!
 
 ## Advisories
 - The plugin is in ALPHA. Expect bugs and missing features. Please report any issues you encounter on the GitHub repository, and add any feature requests you may have.
-- This plugin has only been verified on Mac and iOS. It should work for Windows and Android, but I have not tested it.
+- This plugin has only been verified extensively on Mac and iOS.
 
 ## Acknowledgements
 - This plugin borrows very very heavily from Evan Moscoso's plugin "Smart Memos": https://github.com/Mossy1022/Smart-Memos. As in, a lot of the code is lifted directly from his plugin. The main difference is that he worked in the OpenAI ecoysystem, and I'm using Google's stack. I would encourage people to check out his plugin, although it has not been updated in several months.
