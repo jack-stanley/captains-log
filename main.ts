@@ -86,7 +86,7 @@ export default class CaptainsLogPlugin extends Plugin {
 		// Command for recording a new captain's log.
 		this.addCommand({
 			id: 'record-captains-log',
-			name: "Record Captain's Log",
+			name: "Record Memo",
 			callback: async () => {
 				const audioFileBlob = await new AudioRecordModal(
 					this.app,
@@ -458,9 +458,9 @@ export default class CaptainsLogPlugin extends Plugin {
 		const position = editor.getCursor();
 		const text = editor.getRange({ line: 0, ch: 0 }, position);
 		const regex = [
-			/(?<=\[\[)(([^[\]])+)\.(mp3|wav)(?=]])/g,
-			/(?<=\[(.*)]\()(([^[\]])+)\.(mp3|wav)(?=\))/g,
-		];
+			/\[\[(([^\[\]]+)\.(mp3|wav))\]\]/g,
+			/\[.*?\]\((([^\[\]()]+)\.(mp3|wav))\)/g,
+		  ];
 
 		this.findFilePath(text, regex)
 			.then((path) => {

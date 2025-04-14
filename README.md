@@ -10,7 +10,7 @@ This Obsidian plugin is designed to help you keep daily memos (captain's logs), 
 2. Enable the plugin in your Obsidian settings.
 3. Get a Google AI Studio API key from here: https://aistudio.google.com/apikey. You may need to create a new Google Cloud project. Don't worry, usage of these models within reasonable limits (such as this plugin) is totally free (for now). You should not be billed for usage of this plugin.
 4. Paste the API key into the plugin settings.
-5. Click the "Record Captain's Log" button in the Obsidian ribbon to start recording your log. Recording will start immediately. 
+5. Click the "Record Memo" button in the Obsidian ribbon to start recording your log. Recording will start immediately. 
 6. You may pause the recording and resume at any time. The stop button (square) will only save the audio file.
 7. Click the "Transcribe" button once you are finished with your recording to get a summary of the audio file.
 

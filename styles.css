@@ -80,6 +80,10 @@ body .modal-container .modal.smart-memo-recording {
     }
 }
 
+.smart-memo-transcribe-button svg {
+    margin-right: 10px;
+}
+
 .smart-memo-modal-button {
     /* background-color:var(--interactive-accent) !important; */
     background-color: var(--interactive-accent) !important;

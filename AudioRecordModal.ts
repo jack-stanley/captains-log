@@ -92,9 +92,6 @@ export class AudioRecordModal extends Modal {
 
         // Add margin-right to the SVG element
         const svgElement = transcribeButton.querySelector('svg');
-        if (svgElement) {
-            svgElement.style.marginRight = '10px';
-        }
 
         const resetButton = contentEl.createEl('button', { cls: 'smart-memo-modal-button smart-memo-full-width-button smart-memo-reset-button', text: 'Restart' });
         resetButton.addEventListener('click', () => {
