@@ -1,0 +1,10 @@
+{
+	"id": "captains-log",
+	"name": "Captain's Log",
+	"version": "0.1.0",
+	"minAppVersion": "0.15.0",
+	"description": "Generate templated notes from transcribed audio recordings.",
+	"author": "Jack Stanley",
+	"authorUrl": "https://github.com/jack-stanley",
+	"isDesktopOnly": false
+}
