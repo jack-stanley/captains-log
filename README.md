@@ -1,6 +1,6 @@
 # CAPTAIN'S LOG ⛵️ ✏️ 📜
 
-- Latest version: v0.1.0 (ALPHA)
+- Latest version: v1.0
 - Github: https://github.com/jack-stanley/captains-log
 
 This Obsidian plugin is designed to help you keep daily memos (captain's logs), directly from voice input. 
@@ -33,7 +33,7 @@ Tada!
 (You could probably use this URI in other ways, on other platforms, but I have not tested it. If you do, please let me know how it works!)
 
 ## Advisories
-- The plugin is in ALPHA. Expect bugs and missing features. Please report any issues you encounter on the GitHub repository, and add any feature requests you may have.
+- The plugin is still new. Expect some bugs and missing features. Please report any issues you encounter on the GitHub repository, and add any feature requests you may have.
 - This plugin has only been verified extensively on Mac and iOS.
 
 ## Acknowledgements
