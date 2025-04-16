@@ -3,7 +3,7 @@
 - Latest version: v0.1.0
 - Github: https://github.com/jack-stanley/captains-log
 
-This Obsidian plugin is designed to help you keep daily memos (captain's logs), directly from voice input. 
+This Obsidian plugin is designed to help you keep daily memos (captain's logs), directly from voice input. The upload/transcription is quite fast; a 6 minute voice note is transcribed within 10 seconds using gemini-2.0-flash-lite (other models may be slightly slower). 
 
 ## Instructions
 1. Install the plugin from the Obsidian community plugins store.
@@ -42,3 +42,4 @@ Tada!
 ## TODO
 - Allow custom note/audio file names and patterns.
 - Provide context to the model of previous notes.
+- Allow for offline audio recording and later transcription.
