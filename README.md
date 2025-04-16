@@ -44,3 +44,4 @@ Tada!
 - Provide context to the model of previous notes.
 - Allow for offline audio recording and later transcription.
 - Integration with Obsidian's Daily Note.
+- Allow for multiple note templates.
