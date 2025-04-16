@@ -6,7 +6,7 @@
 This Obsidian plugin is designed to help you keep daily voice memos (captain's logs), directly from voice input. The upload/transcription is quite fast; a 6 minute voice note is transcribed within 10 seconds using gemini-2.0-flash-lite (other models may be slightly slower). 
 
 ## Instructions
-1. Install the plugin from the Obsidian community plugins store.
+1. Install the plugin from the Obsidian community plugins store (NOTE: not yet approved, in the mean time load this plugin with BRAT: https://obsidian.md/plugins?id=obsidian42-brat).
 2. Enable the plugin in your Obsidian settings.
 3. Get a Google AI Studio API key from here: https://aistudio.google.com/apikey. You may need to create a new Google Cloud project. Don't worry, usage of these models within reasonable limits (such as this plugin) is totally free (for now). You should not be billed for usage of this plugin.
 4. Paste the API key into the plugin settings.
