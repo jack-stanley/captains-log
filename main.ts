@@ -500,7 +500,7 @@ export default class CaptainsLogPlugin extends Plugin {
 		let result: RegExpExecArray | null;
 		for (const reg of regex) {
 			while ((result = reg.exec(text)) !== null) {
-				filename = normalizePath(decodeURI(result[0])).trim();
+				filename = normalizePath(decodeURI(result[1])).trim();
 			}
 		}
 		if (filename === '') throw new Error('No file found in the text.');
